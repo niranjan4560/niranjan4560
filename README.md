@@ -75,6 +75,4 @@ Frontend developer with a growing full-stack skillset, currently deepening exper
 
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=niranjan4560&theme=tokyonight&no-frame=true&column=6&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
 </div>
