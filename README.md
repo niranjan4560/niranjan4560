@@ -61,7 +61,7 @@ Frontend developer with a growing full-stack skillset, currently deepening exper
 | Project | Description | Stack |
 |---|---|---|
 | [ai-agent-dashboard](https://github.com/niranjan4560/ai-agent-dashboard) | ARIA — AI agent with real-time weather, news, crypto tracking, GitHub activity & PostgreSQL task management | Python · Ollama |
-| [crypto-analytics-dashboard](https://github.com/niranjan4560/crypto-analytics-dashboard) | Real-time crypto analytics using CoinMarketCap and CoinGecko APIs | Python |
+| [Disease-Prediction-System](https://github.com/niranjan4560/Disease-Prediction-System) | End-to-end Disease Prediction System using XGBoost, FastAPI, Streamlit, PostgreSQL, Power BI, and SHAP with real-time risk prediction and explainable AI | Python · FastAPI · PostgreSQL · Streamlit  |
 
 ---
 
