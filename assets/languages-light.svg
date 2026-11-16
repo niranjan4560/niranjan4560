@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="150" viewBox="0 0 840 150" role="img" aria-labelledby="t"><title id="t">Language share of source lines across five project repositories: Python 41%, Java 25%, TypeScript 22%, CSS 4%, JavaScript 4%, SQL 3%, HTML 1%</title>
+<rect x="0.5" y="0.5" width="839" height="149" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="28" y="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2328">What the code is written in</text>
+<text x="812" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e">24,813 source lines · 5 repositories</text>
+<clipPath id="b"><rect x="28" y="56" width="784" height="10" rx="5"/></clipPath><g clip-path="url(#b)">
+<rect x="28.0" y="56" width="322.2" height="10" fill="#4f46e5"/>
+<rect x="352.2" y="56" width="197.0" height="10" fill="#7c3aed"/>
+<rect x="551.2" y="56" width="166.9" height="10" fill="#0284c7"/>
+<rect x="720.1" y="56" width="29.4" height="10" fill="#64748b"/>
+<rect x="751.5" y="56" width="25.9" height="10" fill="#b45309"/>
+<rect x="779.3" y="56" width="23.7" height="10" fill="#047857"/>
+<rect x="805.0" y="56" width="5.0" height="10" fill="#be123c"/>
+</g>
+<circle cx="33" cy="94" r="5" fill="#4f46e5"/><text x="46" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15" fill="#1f2328">Python <tspan font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e">41.4%</tspan></text>
+<circle cx="229" cy="94" r="5" fill="#7c3aed"/><text x="242" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15" fill="#1f2328">Java <tspan font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e">25.4%</tspan></text>
+<circle cx="425" cy="94" r="5" fill="#0284c7"/><text x="438" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15" fill="#1f2328">TypeScript <tspan font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e">21.5%</tspan></text>
+<circle cx="621" cy="94" r="5" fill="#64748b"/><text x="634" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15" fill="#1f2328">CSS <tspan font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e">4.0%</tspan></text>
+<circle cx="33" cy="120" r="5" fill="#b45309"/><text x="46" y="124" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15" fill="#1f2328">JavaScript <tspan font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e">3.6%</tspan></text>
+<circle cx="229" cy="120" r="5" fill="#047857"/><text x="242" y="124" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15" fill="#1f2328">SQL <tspan font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e">3.3%</tspan></text>
+<circle cx="425" cy="120" r="5" fill="#be123c"/><text x="438" y="124" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15" fill="#1f2328">HTML <tspan font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#59636e">0.9%</tspan></text>
+</svg>
