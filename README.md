@@ -61,14 +61,34 @@ I care about the work that starts once a model trains: serving it behind an API,
 
 <sub><code>Python</code> <code>FastAPI</code> <code>Gemini function calling</code> <code>PostgreSQL</code> <code>SQLAlchemy</code> <code>JWT</code> <code>GitHub Actions</code></sub>
 
+<a href="https://github.com/niranjan4560/ai-agent-dashboard">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/aria-agent-loop-dark-mobile.svg">
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/aria-agent-loop-light-mobile.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/aria-agent-loop-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/aria-agent-loop-light.svg">
+    <img src="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/aria-agent-loop-dark.svg" width="100%" alt="ARIA agent loop in five steps: chat message from a signed-in user, FastAPI endpoint with rate limiting, Gemini function calling, server-side tools for weather, news, crypto and GitHub, and the stored reply. Steps three and four repeat for up to five rounds.">
+  </picture>
+</a>
+
 - **Problem.** Weather, news, markets, GitHub activity and a task list live in separate tabs, and most chat assistants can talk about them but not act on them.
-- **Built.** A single-page dashboard with a FastAPI back end. The assistant runs an agentic loop of up to five rounds, choosing among weather, news, crypto and GitHub tools and reading or writing the user's tasks in PostgreSQL.
+- **Built.** A single-page dashboard with a FastAPI back end. The assistant runs an agentic loop of up to five rounds, choosing among weather, news, crypto and GitHub tools. Task commands such as "add" and "show my tasks" are handled directly by the back end and persist per user in PostgreSQL.
 - **Engineering highlight.** Tool calls execute on the server, so API keys never reach the browser. Accounts use bcrypt and expiring JWTs with per-user data isolation, and chat is rate-limited per user. Widgets report an unconfigured provider instead of showing placeholder data.
 - **Quality.** 33 pytest cases with external APIs and the LLM faked at the boundary; CI runs them on PostgreSQL 16 and SQLite.
 
 ### [Dark Pattern Detector](https://github.com/niranjan4560/dark-pattern-detector) · LLM analysis of manipulative UI design
 
 <sub><code>Python</code> <code>FastAPI</code> <code>Gemini</code> <code>BeautifulSoup</code> <code>PostgreSQL</code> <code>Streamlit</code> <code>Docker Compose</code></sub>
+
+<a href="https://github.com/niranjan4560/dark-pattern-detector">
+  <picture>
+    <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/dark-pattern-pipeline-dark-mobile.svg">
+    <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/dark-pattern-pipeline-light-mobile.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/dark-pattern-pipeline-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/dark-pattern-pipeline-light.svg">
+    <img src="https://raw.githubusercontent.com/niranjan4560/niranjan4560/main/assets/dark-pattern-pipeline-dark.svg" width="100%" alt="Dark Pattern Detector pipeline in five steps: URL or pasted text, scraper, Gemini classifier with a model fallback chain, scoring as 100 minus severity weight times confidence, and outputs to PDF report, analytics and a community database">
+  </picture>
+</a>
 
 - **Problem.** Fake urgency, hidden fees and pre-ticked boxes cost people money, and most people cannot name what they are looking at.
 - **Built.** Paste a URL or page text; a scraper extracts the high-signal elements (buttons, forms, prices, urgency copy) and an LLM classifies ten dark-pattern types. Results feed PDF reports, a community report database and an analytics dashboard.

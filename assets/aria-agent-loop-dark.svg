@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="224" viewBox="0 0 1200 224" role="img" aria-labelledby="t"><title id="t">ARIA agent loop: chat message, FastAPI endpoint, Gemini function calling, server-side tools, reply; Gemini and the tools loop for up to five rounds</title>
+<rect x="0.5" y="0.5" width="1199" height="223" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="28" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="1.8" fill="#818cf8">ARIA · AGENT LOOP</text>
+<rect x="28.0" y="62" width="201.6" height="104" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="44.0" y="88" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#818cf8">01</text>
+<text x="44.0" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#f0f3f6">Chat message</text>
+<text x="44.0" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">Signed-in user,</text>
+<text x="44.0" y="154" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">JWT verified</text>
+<path d="M235.6 114.0 H257.6 m-6 -5 l6 5 l-6 5" fill="none" stroke="#818cf8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="263.6" y="62" width="201.6" height="104" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="279.6" y="88" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#818cf8">02</text>
+<text x="279.6" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#f0f3f6">FastAPI endpoint</text>
+<text x="279.6" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">Per-user rate limit,</text>
+<text x="279.6" y="154" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">conversation history</text>
+<path d="M471.20000000000005 114.0 H493.20000000000005 m-6 -5 l6 5 l-6 5" fill="none" stroke="#818cf8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="499.2" y="62" width="201.6" height="104" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="515.2" y="88" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#818cf8">03</text>
+<text x="515.2" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#f0f3f6">Gemini</text>
+<text x="515.2" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">Function calling: picks</text>
+<text x="515.2" y="154" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">a tool or answers</text>
+<path d="M706.8 105.0 H728.8 m-6 -5 l6 5 l-6 5" fill="none" stroke="#818cf8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M728.8 123.0 H706.8 m6 -5 l-6 5 l6 5" fill="none" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="734.8" y="62" width="201.6" height="104" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="750.8" y="88" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#818cf8">04</text>
+<text x="750.8" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#f0f3f6">Server-side tools</text>
+<text x="750.8" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">Weather, news, crypto,</text>
+<text x="750.8" y="154" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">GitHub activity</text>
+<path d="M942.4 114.0 H964.4 m-6 -5 l6 5 l-6 5" fill="none" stroke="#818cf8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="970.4" y="62" width="201.6" height="104" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="986.4" y="88" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#818cf8">05</text>
+<text x="986.4" y="114" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#f0f3f6">Reply</text>
+<text x="986.4" y="136" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">Stored with the chat</text>
+<text x="986.4" y="154" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13" fill="#9198a1">in PostgreSQL</text>
+<text x="28" y="200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="14" fill="#9198a1">Steps 03 and 04 repeat for up to five rounds, until the model answers without calling a tool.</text>
+</svg>
