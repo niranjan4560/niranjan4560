@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="628" viewBox="0 0 480 628" role="img" aria-labelledby="t"><title id="t">Dark Pattern Detector pipeline: URL or pasted text, scraper, Gemini classifier, scoring, outputs</title>
+<rect x="0.5" y="0.5" width="479" height="627" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="22" y="40" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" letter-spacing="1.8" fill="#818cf8">DARK PATTERN DETECTOR · ANALYSIS PIPELINE</text>
+<rect x="22" y="64" width="436" height="84" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="40" y="99" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#818cf8">01</text>
+<text x="74" y="100" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f3f6">URL or pasted text</text>
+<text x="74" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15.5" fill="#9198a1">Any public page, or copied content</text>
+<path d="M240.0 154 V172 m-5 -6 l5 6 l5 -6" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="22" y="178" width="436" height="84" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="40" y="213" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#818cf8">02</text>
+<text x="74" y="214" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f3f6">Scraper</text>
+<text x="74" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15.5" fill="#9198a1">Buttons, forms, prices, urgency copy</text>
+<path d="M240.0 268 V286 m-5 -6 l5 6 l5 -6" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="22" y="292" width="436" height="84" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="40" y="327" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#818cf8">03</text>
+<text x="74" y="328" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f3f6">Gemini classifier</text>
+<text x="74" y="354" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15.5" fill="#9198a1">Ten pattern types, model fallback chain</text>
+<path d="M240.0 382 V400 m-5 -6 l5 6 l5 -6" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="22" y="406" width="436" height="84" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="40" y="441" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#818cf8">04</text>
+<text x="74" y="442" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f3f6">Scoring</text>
+<text x="74" y="468" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15.5" fill="#9198a1">100 minus severity weight × confidence</text>
+<path d="M240.0 496 V514 m-5 -6 l5 6 l5 -6" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="22" y="520" width="436" height="84" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="40" y="555" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" fill="#818cf8">05</text>
+<text x="74" y="556" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#f0f3f6">Outputs</text>
+<text x="74" y="582" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="15.5" fill="#9198a1">PDF report, analytics, community database</text>
+</svg>
